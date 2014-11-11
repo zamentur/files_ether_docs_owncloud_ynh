@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# Retrieve arguments
+app=$1
+etherpad_url=$2
+ethercalc_url=$3
+
+# Save specific settings
+sudo yunohost app setting files_ether_docs_owncloud app -v $app
+sudo yunohost app setting files_ether_docs_owncloud etherpad_url -v $etherpad_url
+sudo yunohost app setting files_ether_docs_owncloud ethercalc_url -v $ethercalc_url
+
+# Copy files to the right place
+final_path=/var/www/$app/apps/files_etherpad
+sudo cp ../sources $final_path
+sudo chown -R www-data $final_path
+

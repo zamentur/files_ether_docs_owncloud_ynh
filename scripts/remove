@@ -1,0 +1,7 @@
+#!/bin/bash
+
+app=$(sudo yunohost app setting files_ether_docs_owncloud app)
+
+final_path=/var/www/$app/apps/files_etherpad
+sudo rm -rf $final_path
+

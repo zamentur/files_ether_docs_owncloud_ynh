@@ -1,0 +1,47 @@
+{
+    "name": "Plugin Owncloud Ether Docs",
+    "id": "files_ether_docs_owncloud",
+    "description": {
+        "en": "Include in owncloud a menu to create etherpad and ethercalc"
+    },
+    "license": "Creative Commons by-nc",
+    "developer": {
+        "name": "zamentur",
+        "email": "valentin@grimaud.me",
+        "url": "https://www.grimaud.me/"
+    },
+    "multi_instance": "true",
+    "arguments": {
+        "install" : [
+            {
+                "type": "app",
+                "name": "app",
+                "ask": {
+                    "en": "Choose an owncloud instance where install the plugin"
+                },
+                "example": "owncloud",
+                "default": "owncloud"
+            },
+            {
+                "name": "etherpad_url",
+                "ask": {
+                    "en": "The etherpad url that you want use"
+                },
+                "example": "/pad",
+                "default": "/pad"
+            },
+            {
+                "name": "ethercalc_url",
+                "ask": {
+                    "en": "The ethercalc url that you want use"
+                },
+                "example": "/calc",
+                "default": "/calc"
+            }
+
+
+        ]
+    }
+}
+
+

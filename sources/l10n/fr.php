@@ -1,0 +1,16 @@
+<?php $TRANSLATIONS = array(
+  'Collaborative Documents'=>'Documents collaboratifs',
+  'Edit' => '&Eacute;diter',
+  'Etherpad Host' => 'H&ocirc;te Etherpad',
+  'Ethercalc Host' => 'H&ocirc;te Ethercalc',
+  'ex:' => 'ex :',
+  'Title' => 'Titre',
+  'public link' => 'Lien public',
+  'Pad' => 'Document collaboratif',
+  'Calc' => 'Tableur collaboratif',
+  'Save' => 'Sauvegarder',
+  'Padname cannot be empty' => 'Le nom du Pad ne peut être vide',
+  'Document name cannot be empty' => 'Le nom du document ne peut être vide',
+  'New document named ' => 'Nouveau document nommé ',
+  ' was created.' => ' a été créé.',
+);
